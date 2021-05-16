@@ -1,14 +1,15 @@
 {
   "name": "app_insmet",
   "version": "0.0.1",
-  "description": "Mulimedia para el INSMET",
-  "productName": "INSMET",
-  "author": "yelena870513@gmail.com",
+  "description": "Multimedia para el INSMET",
+  "productName": "insmet",
+  "author": "Yelena Islen San Juan <yelena870513@gmail.com>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
     "start": "quasar dev",
+    "start:electron": "quasar dev -m electron",
     "build-electron": "quasar build -m electron"
   },
   "dependencies": {
@@ -35,19 +36,10 @@
     "faker": "^5.1.0"
   },
   "browserslist": [
-    "last 10 Chrome versions",
-    "last 10 Firefox versions",
-    "last 4 Edge versions",
-    "last 7 Safari versions",
-    "last 8 Android versions",
-    "last 8 ChromeAndroid versions",
-    "last 8 FirefoxAndroid versions",
-    "last 10 iOS versions",
-    "last 5 Opera versions"
+    "last 10 Chrome versions"
   ],
   "engines": {
     "node": ">= 10.18.1",
-    "npm": ">= 6.13.4",
-    "yarn": ">= 1.21.1"
+    "npm": ">= 6.13.4"
   }
 }
